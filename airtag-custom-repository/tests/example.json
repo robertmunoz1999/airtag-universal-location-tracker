@@ -1,0 +1,21 @@
+[
+    {
+        "name" : "Sandero",
+        "identifier" : "BB74902C-DC17-42AF-8860-4F41506419C1",
+        "timeStamp" : 1700221039000,
+        "latitude" : 40.39452933330631,
+        "longitude" : -3.6880399502380916
+    }
+]
+
+{
+    "airtags-info":
+        [
+            { "identifier": "HW1KTUZ7P0GV",
+                "name": "Sandero", "located_at": ,
+                "latitude": 40.39452933330631,
+                "longitude": -3.6880399502380916 }
+        ,
+            { "identifier": "HW1KTUJEP0GV", "name": "Panda", "located_at": , "latitude": 40.39741673805924, "longitude": -3.6937911341950342 }
+        ]
+}

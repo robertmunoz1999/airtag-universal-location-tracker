@@ -1,0 +1,27 @@
+version: '3'
+services:
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+            target: base
+        ports:
+            - "8000:8000"
+        volumes:
+            - ./:/var/www/html
+
+    database:
+        image: biarms/mysql:5.7
+        volumes:
+            - dbdata:/var/lib/mysql:delegated
+        environment:
+            MYSQL_DATABASE: database
+            MYSQL_ROOT_HOST: '%'
+            MYSQL_ROOT_PASSWORD: secret
+            TZ: UTC
+        ports:
+            - "3306:3306"
+        restart: on-failure
+
+volumes:
+    dbdata:

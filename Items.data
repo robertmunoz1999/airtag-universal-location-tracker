@@ -1,0 +1,400 @@
+[
+  {
+    "location" : {
+      "timeStamp" : 1700221039000,
+      "locationFinished" : true,
+      "floorLevel" : -1,
+      "isInaccurate" : false,
+      "isOld" : false,
+      "latitude" : 40.39452933330631,
+      "longitude" : -3.6880399502380916,
+      "positionType" : "crowdsourced",
+      "horizontalAccuracy" : 24.689935251788757,
+      "altitude" : -1,
+      "verticalAccuracy" : -1
+    },
+    "name" : "Sandero",
+    "batteryStatus" : 1,
+    "isFirmwareUpdateMandatory" : false,
+    "isAppleAudioAccessory" : false,
+    "capabilities" : 766,
+    "safeLocations" : [
+      {
+        "address" : {
+          "formattedAddressLines" : [
+            "Brienzersee",
+            "Ringgenberg BE",
+            "Suiza"
+          ],
+          "subAdministrativeArea" : null,
+          "country" : "Suiza",
+          "stateCode" : "BE",
+          "mapItemFullAddress" : "Brienzersee, Ringgenberg BE, Suiza",
+          "administrativeArea" : "Berna",
+          "streetName" : null,
+          "areaOfInterest" : [
+
+          ],
+          "streetAddress" : null,
+          "locality" : "Ringgenberg BE",
+          "countryCode" : "CH",
+          "fullThroroughfare" : null,
+          "label" : "Brienzersee"
+        },
+        "type" : 0,
+        "approvalState" : 1,
+        "identifier" : "F6491136-EBC1-4E4E-9032-4FC727F4070F",
+        "name" : null,
+        "location" : {
+          "timeStamp" : 1700221595172,
+          "locationFinished" : true,
+          "positionType" : "safeLocation",
+          "isOld" : true,
+          "altitude" : 0,
+          "longitude" : 7.915305349602689,
+          "floorLevel" : -1,
+          "horizontalAccuracy" : 80,
+          "verticalAccuracy" : 80,
+          "latitude" : 46.7077666970111,
+          "isInaccurate" : false
+        }
+      },
+      {
+        "approvalState" : 1,
+        "name" : "Casa",
+        "identifier" : "7DA01694-5FC9-4858-B49F-903896537C6E",
+        "type" : 1,
+        "address" : {
+          "locality" : "Madrid",
+          "administrativeArea" : "Madrid",
+          "countryCode" : "ES",
+          "mapItemFullAddress" : "Calle de Tomás Bretón, 61, 28045 Madrid",
+          "formattedAddressLines" : [
+            "Calle de Tomás Bretón, 61",
+            "28045 Madrid",
+            "España"
+          ],
+          "streetAddress" : "61",
+          "subAdministrativeArea" : null,
+          "areaOfInterest" : [
+
+          ],
+          "streetName" : "Calle de Tomás Bretón",
+          "country" : "España",
+          "label" : "Calle de Tomás Bretón, 61",
+          "stateCode" : null,
+          "fullThroroughfare" : "Calle de Tomás Bretón, 61"
+        },
+        "location" : {
+          "positionType" : "safeLocation",
+          "verticalAccuracy" : 80,
+          "horizontalAccuracy" : 80,
+          "altitude" : 0,
+          "longitude" : -3.689045208875426,
+          "timeStamp" : 1700221595172,
+          "isInaccurate" : false,
+          "locationFinished" : true,
+          "isOld" : true,
+          "latitude" : 40.39517929565501,
+          "floorLevel" : -1
+        }
+      },
+      {
+        "address" : {
+          "streetAddress" : "6",
+          "areaOfInterest" : [
+
+          ],
+          "locality" : "Pozuelo de Alarcón",
+          "administrativeArea" : "Madrid",
+          "fullThroroughfare" : "Calle de Enrique Granados, 6",
+          "stateCode" : null,
+          "streetName" : "Calle de Enrique Granados",
+          "subAdministrativeArea" : null,
+          "country" : "España",
+          "countryCode" : "ES",
+          "mapItemFullAddress" : "Calle de Enrique Granados, 6, 28224 Pozuelo de Alarcón, Madrid",
+          "label" : "Calle de Enrique Granados, 6",
+          "formattedAddressLines" : [
+            "Calle de Enrique Granados, 6",
+            "28224 Pozuelo de Alarcón",
+            "Madrid, España"
+          ]
+        },
+        "type" : 0,
+        "identifier" : "CA0FDC22-3ED3-49D4-90A4-D5390E49F248",
+        "approvalState" : 1,
+        "location" : {
+          "longitude" : -3.8109141009915475,
+          "altitude" : 0,
+          "locationFinished" : true,
+          "horizontalAccuracy" : 80,
+          "timeStamp" : 1700221595172,
+          "isOld" : true,
+          "positionType" : "safeLocation",
+          "verticalAccuracy" : 80,
+          "isInaccurate" : false,
+          "floorLevel" : -1,
+          "latitude" : 40.458316577342764
+        },
+        "name" : null
+      }
+    ],
+    "productType" : {
+      "productInformation" : {
+        "manufacturerName" : "Apple",
+        "antennaPower" : 4,
+        "vendorIdentifier" : 76,
+        "productIdentifier" : 21760,
+        "modelName" : ""
+      },
+      "type" : "b389"
+    },
+    "groupIdentifier" : null,
+    "serialNumber" : "HW1KTUZ7P0GV",
+    "systemVersion" : "2.0.36",
+    "lostModeMetadata" : null,
+    "productIdentifier" : "DE3DE9FC-A990-4391-B22B-3B1DF35934FA",
+    "owner" : "owner@localhost",
+    "address" : {
+      "stateCode" : null,
+      "streetName" : "Calle del Párroco Eusebio Cuenca",
+      "streetAddress" : "58",
+      "subAdministrativeArea" : null,
+      "mapItemFullAddress" : "Calle del Párroco Eusebio Cuenca, 58, 28045 Madrid",
+      "fullThroroughfare" : "Calle del Párroco Eusebio Cuenca, 58",
+      "label" : "Calle del Párroco Eusebio Cuenca, 58",
+      "administrativeArea" : "Madrid",
+      "formattedAddressLines" : [
+        "Calle del Párroco Eusebio Cuenca, 58",
+        "28045 Madrid",
+        "España"
+      ],
+      "country" : "España",
+      "countryCode" : "ES",
+      "areaOfInterest" : [
+
+      ],
+      "locality" : "Madrid"
+    },
+    "partInfo" : null,
+    "role" : {
+      "name" : "Nombre personalizado",
+      "emoji" : "🚙",
+      "identifier" : 999
+    },
+    "identifier" : "BB74902C-DC17-42AF-8860-4F41506419C1",
+    "crowdSourcedLocation" : {
+      "floorLevel" : -1,
+      "longitude" : -3.6880399502380916,
+      "latitude" : 40.39452933330631,
+      "timeStamp" : 1700221039000,
+      "verticalAccuracy" : -1,
+      "positionType" : "crowdsourced",
+      "horizontalAccuracy" : 24.689935251788757,
+      "isInaccurate" : false,
+      "locationFinished" : true,
+      "altitude" : -1,
+      "isOld" : false
+    }
+  },
+  {
+    "identifier" : "D48BED80-EF31-41D7-9C37-F069E7065EEF",
+    "address" : {
+      "streetAddress" : "19",
+      "administrativeArea" : "Madrid",
+      "locality" : "Madrid",
+      "streetName" : "Calle de Tomás Bretón",
+      "mapItemFullAddress" : "Calle de Tomás Bretón, 19, 28045 Madrid",
+      "areaOfInterest" : [
+
+      ],
+      "formattedAddressLines" : [
+        "Calle de Tomás Bretón, 19",
+        "28045 Madrid",
+        "España"
+      ],
+      "stateCode" : null,
+      "fullThroroughfare" : "Calle de Tomás Bretón, 19",
+      "subAdministrativeArea" : null,
+      "countryCode" : "ES",
+      "label" : "Calle de Tomás Bretón, 19",
+      "country" : "España"
+    },
+    "systemVersion" : "2.0.36",
+    "name" : "Panda",
+    "safeLocations" : [
+      {
+        "location" : {
+          "latitude" : 46.7077666970111,
+          "isInaccurate" : false,
+          "locationFinished" : true,
+          "positionType" : "safeLocation",
+          "horizontalAccuracy" : 80,
+          "longitude" : 7.915305349602689,
+          "timeStamp" : 1700221595172,
+          "verticalAccuracy" : 80,
+          "floorLevel" : -1,
+          "isOld" : true,
+          "altitude" : 0
+        },
+        "approvalState" : 1,
+        "address" : {
+          "streetAddress" : null,
+          "formattedAddressLines" : [
+            "Brienzersee",
+            "Ringgenberg BE",
+            "Suiza"
+          ],
+          "countryCode" : "CH",
+          "country" : "Suiza",
+          "fullThroroughfare" : null,
+          "mapItemFullAddress" : "Brienzersee, Ringgenberg BE, Suiza",
+          "label" : "Brienzersee",
+          "subAdministrativeArea" : null,
+          "streetName" : null,
+          "stateCode" : "BE",
+          "locality" : "Ringgenberg BE",
+          "areaOfInterest" : [
+
+          ],
+          "administrativeArea" : "Berna"
+        },
+        "name" : null,
+        "type" : 0,
+        "identifier" : "F6491136-EBC1-4E4E-9032-4FC727F4070F"
+      },
+      {
+        "approvalState" : 1,
+        "identifier" : "7DA01694-5FC9-4858-B49F-903896537C6E",
+        "type" : 1,
+        "name" : "Casa",
+        "location" : {
+          "longitude" : -3.689045208875426,
+          "positionType" : "safeLocation",
+          "timeStamp" : 1700221595172,
+          "locationFinished" : true,
+          "latitude" : 40.39517929565501,
+          "isInaccurate" : false,
+          "floorLevel" : -1,
+          "isOld" : true,
+          "altitude" : 0,
+          "horizontalAccuracy" : 80,
+          "verticalAccuracy" : 80
+        },
+        "address" : {
+          "stateCode" : null,
+          "areaOfInterest" : [
+
+          ],
+          "locality" : "Madrid",
+          "streetName" : "Calle de Tomás Bretón",
+          "formattedAddressLines" : [
+            "Calle de Tomás Bretón, 61",
+            "28045 Madrid",
+            "España"
+          ],
+          "administrativeArea" : "Madrid",
+          "label" : "Calle de Tomás Bretón, 61",
+          "country" : "España",
+          "mapItemFullAddress" : "Calle de Tomás Bretón, 61, 28045 Madrid",
+          "streetAddress" : "61",
+          "countryCode" : "ES",
+          "fullThroroughfare" : "Calle de Tomás Bretón, 61",
+          "subAdministrativeArea" : null
+        }
+      },
+      {
+        "approvalState" : 1,
+        "location" : {
+          "positionType" : "safeLocation",
+          "timeStamp" : 1700221595172,
+          "latitude" : 40.458316577342764,
+          "verticalAccuracy" : 80,
+          "floorLevel" : -1,
+          "isInaccurate" : false,
+          "altitude" : 0,
+          "longitude" : -3.8109141009915475,
+          "locationFinished" : true,
+          "isOld" : true,
+          "horizontalAccuracy" : 80
+        },
+        "identifier" : "CA0FDC22-3ED3-49D4-90A4-D5390E49F248",
+        "address" : {
+          "stateCode" : null,
+          "administrativeArea" : "Madrid",
+          "countryCode" : "ES",
+          "subAdministrativeArea" : null,
+          "locality" : "Pozuelo de Alarcón",
+          "streetName" : "Calle de Enrique Granados",
+          "streetAddress" : "6",
+          "areaOfInterest" : [
+
+          ],
+          "country" : "España",
+          "formattedAddressLines" : [
+            "Calle de Enrique Granados, 6",
+            "28224 Pozuelo de Alarcón",
+            "Madrid, España"
+          ],
+          "mapItemFullAddress" : "Calle de Enrique Granados, 6, 28224 Pozuelo de Alarcón, Madrid",
+          "fullThroroughfare" : "Calle de Enrique Granados, 6",
+          "label" : "Calle de Enrique Granados, 6"
+        },
+        "type" : 0,
+        "name" : null
+      }
+    ],
+    "batteryStatus" : 1,
+    "productIdentifier" : "DE3DE9FC-A990-4391-B22B-3B1DF35934FA",
+    "crowdSourcedLocation" : {
+      "verticalAccuracy" : -1,
+      "timeStamp" : 1700221079000,
+      "positionType" : "crowdsourced",
+      "isInaccurate" : false,
+      "altitude" : -1,
+      "locationFinished" : true,
+      "floorLevel" : -1,
+      "latitude" : 40.39741673805924,
+      "longitude" : -3.6937911341950342,
+      "isOld" : false,
+      "horizontalAccuracy" : 25.138502086793828
+    },
+    "isFirmwareUpdateMandatory" : false,
+    "role" : {
+      "emoji" : "🐼",
+      "name" : "Nombre personalizado",
+      "identifier" : 999
+    },
+    "groupIdentifier" : null,
+    "lostModeMetadata" : null,
+    "owner" : "owner@localhost",
+    "partInfo" : null,
+    "serialNumber" : "HW1KTUJEP0GV",
+    "location" : {
+      "isOld" : false,
+      "timeStamp" : 1700221079000,
+      "isInaccurate" : false,
+      "verticalAccuracy" : -1,
+      "positionType" : "crowdsourced",
+      "longitude" : -3.6937911341950342,
+      "floorLevel" : -1,
+      "locationFinished" : true,
+      "latitude" : 40.39741673805924,
+      "altitude" : -1,
+      "horizontalAccuracy" : 25.138502086793828
+    },
+    "capabilities" : 766,
+    "productType" : {
+      "productInformation" : {
+        "manufacturerName" : "Apple",
+        "modelName" : "",
+        "vendorIdentifier" : 76,
+        "productIdentifier" : 21760,
+        "antennaPower" : 4
+      },
+      "type" : "b389"
+    },
+    "isAppleAudioAccessory" : false
+  }
+]
