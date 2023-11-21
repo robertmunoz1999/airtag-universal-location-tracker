@@ -2,5 +2,6 @@ Airtags.csv
 Items.data
 *.csv
 *.data
-
+.idea
 .DS_Store
+.swp
