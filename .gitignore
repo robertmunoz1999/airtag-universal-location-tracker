@@ -2,3 +2,4 @@ Airtags.csv
 Items.data
 *.csv
 *.data
+.DS_Store

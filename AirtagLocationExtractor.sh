@@ -36,7 +36,7 @@ post_data_to_api() {
     airtags_info+=']}'
 
     echo "Data to be sent:"
-        echo "$located_at"
+        echo "$airtags_info"
 
     curl -X POST -H "Content-Type: application/json" -H "Accept: application/json" -d "$airtags_info" "$API_URL"
 }

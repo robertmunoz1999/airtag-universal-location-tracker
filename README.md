@@ -1,48 +1,58 @@
-# AirtagAlex
-Get all metadata from the Airtags (lat, lon, geocoding information, precision range, battery status).
-This script is a very basic script to write the data to a CSV for processing in Excel or Numbers. I am sure many rewrites will be done by other folks but anyone with some programming experience will have a good starting point with this script. 
+# Airtag Universal Location Tracker
 
-Click below to see the youtube video and a step by step guide;
+This project provides a simple website to watch airtag location in any device.
 
-[![Click here for the youtube video](https://img.youtube.com/vi/9VQ-_ztG9aM/0.jpg)](https://www.youtube.com/watch?v=9VQ-_ztG9aM)
+## Usage
 
 
-## Instructions
+1. **Airtag Location Extractor Script (`AirtagLocationExtractor.sh`)**
 
-* Install brew (https://brew.sh/)
-* Install the jq utility (`brew install jq`)
-* Clone this repo by typing `git clone https://github.com/icepick3000/AirtagAlex.git`
-* Make the shell file executable by typing `chmod 700 AirtagAlex.sh`
-  
-You can start the script by typing:
-  
-`./AirtagAlex.sh`
-  
-The output will look something like this:
+    - Run the script on your Mac to extract Airtag location data.
+    - Configure the script with the server IP.
+    - The script sends the data to the backend server via POST.
+
+```bash
+./AirtagLocationExtractor.sh
+```
+
+2. Backend Server (Laravel Project - airtag-custom-repository)
+
+Two endpoints:
+
+- GET /api/airtags-info: Retrieves Airtag info.
+- POST /api/airtags-info: Adds Airtag info. 
+- Data format for POST:
 
 ```
-Create a copy of the Items.data file to prevent changes while the script is running
-Check if Airtags.csv exists
-Check how many Airtags to process
-Number of Airtags to process:       4
-Processing airtag number 0
-Write the data to the Airtags.csv file
-Processing airtag number 1
-Write the data to the Airtags.csv file
-Processing airtag number 2
-Write the data to the Airtags.csv file
-Processing airtag number 3
-Write the data to the Airtags.csv file
-Sleep for 1 minute (60 seconds)
+{
+    "airtags-info": [
+        {
+            "identifier": "pepito",
+            "name": "Sandero",
+            "located_at": "2023-11-17 14:14:33",
+            "latitude": "73.51334400",
+            "longitude": "147.39223700"
+        },
+        {
+            "identifier": "Panda",
+            "name": "Panda",
+            "located_at": "2023-11-17 14:14:33",
+            "latitude": "73.51334400",
+            "longitude": "147.39223700"
+        }
+    ]
+}
 ```
-  
-The results in CSV format can be found in the same directory!
-    
-To see all my Airtag adventures check out my channel at https://www.youtube.com/c/AirtagAlex
-    
-If this script was of use to you a referal in your video or project would be highly appreciated. 
 
-## Troubleshooting
-If you receive an `operation not permitted` error when running the script, please ensure that `Terminal` has `Full Disk Access` in the `Privacy & Security` settings in macOS.
+3. Web Interface (airtag-location-website)
 
-This is because of the file permissions on the `Items.data` file. Please propose an alternative or better way to do this if it's possible.
+Simple web app to visualize Airtag locations.
+Retrieves data from the Laravel backend.
+
+Directory Structure
+- AirtagLocationExtractor.sh: Bash script to get airtag info.
+- airtag-custom-repository: Laravel project for storing and serving Airtag information.
+- airtag-location-website: Web app for visualizing Airtag locations.
+
+## Credits
+[AirtagAlex](https://github.com/icepick3000/AirtagAlex). For providing the Airtag data extraction script.
